@@ -1,0 +1,105 @@
+.adminform {
+    margin: auto;
+    width: 40%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.adminform > input, .adminform > textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.adminform > button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.adminform > button:hover {
+    background-color: #37813a;
+}
+
+.adminform > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.addbutton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 18px;
+    margin-left: 12%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.addbutton:hover {
+    background-color: #37813a;
+}
+
+.alignbutton {
+    width: 100%;
+    display: inline-flex;
+    margin-left: 8em;
+}
+
+.editbutton {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editbutton:hover {
+    background-color: #37813a;
+}
+
+.deletebutton {
+    width: auto;
+    background-color: #af4c4c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.deletebutton:hover {
+    background-color: #813737;
+}
+
+.outcatalog
+{
+    filter: blur(1.5px) grayscale(100%);
+}
+
+.Horscatalogue
+{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.5em;
+}

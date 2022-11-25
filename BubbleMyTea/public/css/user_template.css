@@ -1,0 +1,37 @@
+.block {
+    display: flex;
+}
+.flex_nav {
+    flex-grow: 1;
+    border-right: 2px black solid;
+}
+.flex_page {
+    flex-grow: 100;
+}
+
+.list {
+    padding-top: 1em;
+}
+
+.list-anchor {
+    color: black;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.list-anchor:hover {
+    color: blue;
+}
+
+.unoderlist2 {
+    list-style-type: none;
+}
+
+.main_user {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 5em;
+    margin: 0;
+    margin-left: 3em;
+    margin-right: 2em;
+}

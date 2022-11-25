@@ -1,0 +1,471 @@
+.navbar
+{
+    background-color: #adffe63f;
+    white-space: nowrap;
+    font-size: 1.5rem;
+	place-items: center;
+	border: 5px solid;
+    white-space: nowrap;
+    border-image: linear-gradient(to left, turquoise, greenyellow) 1 0;
+    
+    
+}
+.title
+{
+    text-align: center;
+    font-size: 5em;
+    
+}
+.unorderlist
+{
+    
+    list-style-type: none;
+    padding-bottom: 1.3em;
+
+}
+
+footer
+{
+    text-align: center;
+}
+
+.space_nav
+{
+    padding: 1em;
+}
+nav ul li
+{
+    display: inline;
+    font-size: 1.4em; 
+}
+nav ul li a
+{
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: blue;
+  
+}
+
+.right
+{
+    float: right;
+    padding-right: 1em;
+}
+
+main
+{
+    background-color: white;
+    background-repeat: no-repeat;
+    margin-right: 10em;
+    margin-left: 15%;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-bottom: 10em;
+ 
+
+}
+
+footer ul li 
+{
+   
+    display: inline;
+    padding: 2em;
+    font-size: 1.4em;
+    
+}
+
+fieldset
+{
+    border:0;
+    display: flex;
+    flex-direction: column;
+    max-width: 28em;   
+    
+}
+.bloc
+{
+   margin-left: 45em;
+
+
+}
+legend
+{
+    text-align: center;
+    
+}
+
+input
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+input:focus
+{
+    color: #54a6b1 ;
+}
+select
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+
+    background-color: #FFF; 
+}
+select:focus
+{
+    color: #54a6b1 ;
+}
+.female ,.male
+{
+    text-transform: lowercase;
+    display: inline;
+
+}
+.civil
+{
+    display: inline-block;
+    word-spacing: 25px;
+
+}
+
+.button
+{
+    background-color: rgb(83, 255, 180);
+    width: 5cm;
+    height: 2cm;
+    margin-top: 2em;
+    margin-left: 45%;
+    border-radius: 6px;
+    border-bottom: 0;
+
+}
+.button:hover
+{
+    background: rgb(0, 245, 139);
+    box-shadow: none;
+
+}
+.logout
+{
+    float: right;
+    padding-right: 1em;
+
+}
+.image
+{
+    width: 300px;
+    height: 250px;
+    margin-left: 0px;
+    display: inline;
+    border-top-right-radius:2em;
+    border-top-left-radius:2em;
+}
+.lien, .lien:hover, .lien:visited, .lien:active, .lien:link
+{
+    text-decoration: none;
+    color: black;
+}
+
+p
+{
+    font-size: 1.5em;
+   
+}
+.product 
+{
+    margin-top: 40px;
+    margin-left: 50px;
+    border-style:none solid solid;
+    border-radius: 2em ;
+    border-width: 0px;
+    border-color: rgb(210, 210, 210);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: all ease 0.2s;
+    height: 325px;
+
+}
+
+.product p
+{
+    text-align: center;
+
+}
+.product:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.description
+{
+    display: flex;
+}
+.descriptionbis
+{
+    flex-grow: 1;
+    text-decoration: none;
+    margin-left: -130px;
+}
+.foreach
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 5em;
+    margin-left: 10em;
+   
+}
+h3
+{
+    display: block;
+}
+.img
+{
+    border-radius: 1em;
+    width: 48%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 1px;
+}
+.supp 
+{
+    text-decoration: underline;
+}
+
+.panier 
+{
+    background-color: white;
+    position: absolute;
+	right: 2em;
+    top: 7em;
+    width: 21em;
+    height: 85%;
+	white-space: nowrap;
+    border-radius: 2em;
+    border: solid grey;
+    
+}
+.texte
+{
+    text-align: center;
+    padding: 5em;
+    margin: auto;
+    border-radius: 1em;
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+    width: 70%;
+    font-size: 1.25em;
+
+
+}
+.submit
+{
+
+    bottom: 1.3%;
+    width: 25em;
+    align-content: center;
+    height: 3em;
+    border-radius: 2em;
+    color: blue;
+    
+}
+
+/* ici commence le css pour la profile view et la password view */
+.contener {
+    border-style: hidden;
+
+}
+.green {
+    font-size: 19px;
+    font-weight:bolder;
+    color: rgb(76, 202, 103);
+}
+
+.red {
+    font-size: 19px;
+    font-weight:bolder;
+    color: rgb(227, 27, 27);
+}
+
+.f {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.fontlist
+{
+    font-size: 1.3em;
+}
+
+.txt {
+    font-size: 25px;
+    border-style: none none solid;
+    border-bottom-color: #d0d0d0;
+    margin-bottom: 10px;
+} 
+
+.delete-button {
+
+    background-color: rgb(255, 105, 105);
+    border-radius: 6px;
+    border:0;
+    color: rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+    font-size: 1.1em;
+    height: auto;
+    float: right;
+    outline: 0;
+    text-align: center;
+    width: 32%;
+    padding: 0.2em;
+
+}
+    
+.delete-button:hover {
+    background: rgb(255, 50, 50);
+    box-shadow: none;
+}
+
+.delete-button:active {
+    background: rgb(220, 10, 10);
+    box-shadow: none;
+}
+
+.msgprofile {
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+
+.profile {
+    background-color: #f3f3f3;
+    border-style: solid;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:20px;
+    padding-right:20px;
+    border-width: 0px;
+    border-radius: 10px;
+    margin-right: 15%;
+    margin-left: 22%;
+    width: 40%;
+    box-shadow: 4px 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.labels {
+    font-size: 20px;
+    text-align:left;
+    margin-top: 5px;
+}
+
+.form-control {
+    background-color: #d1d1d1;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 18px;
+    height: 10%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+}
+
+.form-control:focus{
+background-color: #e2e2e2;
+}
+
+.profile-button {
+
+    background-color: rgb(83, 255, 180);
+    border-radius: 6px;
+    border:0;
+    color: rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 44px;
+    margin-left: 29%;
+    margin-top: 5%;
+    outline: 0;
+    text-align: center;
+    width: 38%;
+
+}
+    
+.profile-button:hover {
+    background: rgb(0, 245, 139);
+    box-shadow: none;
+}
+
+.profile-button:active {
+    background: rgb(79, 197, 146);
+    box-shadow: none;
+}
+
+.return-button {
+    background-color: rgb(221, 223, 224);
+    border-radius: 6px;
+    border:0;
+
+    color: rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+    font-size: 1.1em;
+    height: 44px;
+    margin-left: 29%;
+    outline: 0;
+    text-align: center;
+    width: 38%;
+}
+
+.return-button:hover {
+    background: rgb(200, 200, 200);
+    box-shadow: none;
+}
+
+.return-button:active {
+    background: #adadad;
+    box-shadow: none;
+}
+   /* ici finit le css pour la profile view et la password view */
+.wrap {
+    transform: scale(1,1);
+
+}
+
+.check {
+    display: none;
+}
+
+.transi {
+    font-size: 24px;
+    color: #5D5D5F;
+    display: inline-block;
+    padding: 0 0 0 1em;
+    cursor: pointer;
+}
+.transi:before {
+    content: '';
+    display: inline-block;
+    background: #55D8C6;
+    position: absolute;
+    left: 0;
+    top: 0.25em;
+    height: 20px;
+    width: 20px;
+    margin-right: px;
+
+    box-shadow: 0px 1px 0 0 rgba(0, 0, 0, .2);
+    box-sizing: border-box;
+    border: 10px solid #5D5D5F; 
+    transition: border .3s ease;
+}
+
+.check:checked + label:before {
+    border-color: #5D5D5F;
+    border-width: 0.09em;
+}
+#deleteprofile
+{
+    padding: 0;
+    margin: 0;
+}
